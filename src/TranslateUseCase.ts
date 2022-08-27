@@ -32,6 +32,14 @@ export const TranslateUseCaseDefinition: IUseCaseDefinition<
 > = {
     io: {
         input: {
+            callToActionLabel: {
+                idle: {
+                    en: 'Send',
+                },
+                loading: {
+                    en: 'Sending',
+                },
+            },
             fields: [
                 {
                     choices: {
