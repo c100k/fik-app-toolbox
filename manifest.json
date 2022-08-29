@@ -2,6 +2,9 @@
     "name": "Toolbox",
     "useCases": [
         {
+            "name": "GenerateMiscData"
+        },
+        {
             "name": "Translate"
         }
     ]
