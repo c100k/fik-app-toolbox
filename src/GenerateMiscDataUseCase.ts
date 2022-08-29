@@ -55,7 +55,7 @@ export const GenerateMiscDataUseCaseDefinition: IUseCaseDefinition<
                     type: {
                         code: 'Quantity',
                         default: 3,
-                        initialValue: 12,
+                        initial: 12,
                     },
                 },
             ],
