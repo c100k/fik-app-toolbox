@@ -89,7 +89,7 @@ export const TranslateUseCaseDefinition: IUseCaseDefinition<
     },
     lifecycle: {
         client: {
-            main: async (useCase, { webBrowser, uuidGenerator }) => {
+            main: async (useCase, { cryptoManager, webBrowser }) => {
                 const dictionary = useCase.requireFromInput<Enum>('dictionary');
                 const expression =
                     useCase.requireFromInput<FreeTextShort>('expression');
@@ -114,7 +114,7 @@ export const TranslateUseCaseDefinition: IUseCaseDefinition<
                 output._0.items.push({
                     css: '',
                     html: response || 'Nothing found',
-                    id: uuidGenerator.v4(),
+                    id: cryptoManager.randomUUID(),
                 });
 
                 return output;
