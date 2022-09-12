@@ -122,7 +122,7 @@ export const TranslateUseCaseDefinition: IUseCaseDefinition<
         },
     },
     metadata: {
-        action: 'Translate',
+        action: 'Create',
         icon: 'trail-sign-outline',
         label: {
             en: 'Translate',

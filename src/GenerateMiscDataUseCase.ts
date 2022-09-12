@@ -136,7 +136,7 @@ export const GenerateMiscDataUseCaseDefinition: IUseCaseDefinition<
         },
     },
     metadata: {
-        action: 'Generate',
+        action: 'Create',
         description: {
             en: 'Generate misc data used when developing like timestamp, UUIDs, etc.',
         },
